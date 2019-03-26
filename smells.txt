@@ -1,0 +1,3 @@
+1. The code smell here is duplicated code because the same code appears twice in the class.
+	We can refactor this by using extract method, where we create a new method from this
+	code and call it where it appears originally.
