@@ -2,3 +2,6 @@
 	We can refactor this by using extract method, where we create a new method from this
 	code and call it where it appears originally.
 2. The code smell is again duplicated code, so we again extract method.
+3. The method calls two methods in the Jenkins class, so the method would be better suited
+	to the Jenkins class instead of Nodes. This is the feature envy code smell, and we can
+	address it by moving the method from the Nodes class to the Jenkins class.
