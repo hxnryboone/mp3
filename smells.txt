@@ -8,4 +8,6 @@
 4. These statements can be put into a for loop that runs four times. We only need to be sure
 	to label the outer for loop and change the break statement so that it breaks the labeled
 	loop.
-5. The code smellThe code smell is again duplicated code, so we again extract method. 
+5. The code smellThe code smell is again duplicated code, so we again extract method.
+6. We found 10 lines of duplicate code in RunParameterDefinitionTest.java in the hudson.model
+	package. We extracted the method, so that the two methods can call this common method.
