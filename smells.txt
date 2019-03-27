@@ -8,4 +8,4 @@
 4. These statements can be put into a for loop that runs four times. We only need to be sure
 	to label the outer for loop and change the break statement so that it breaks the labeled
 	loop.
-5. 
+5. The code smellThe code smell is again duplicated code, so we again extract method. 
