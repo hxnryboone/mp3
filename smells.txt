@@ -5,3 +5,7 @@
 3. The method calls two methods in the Jenkins class, so the method would be better suited
 	to the Jenkins class instead of Nodes. This is the feature envy code smell, and we can
 	address it by moving the method from the Nodes class to the Jenkins class.
+4. These statements can be put into a for loop that runs four times. We only need to be sure
+	to label the outer for loop and change the break statement so that it breaks the labeled
+	loop.
+5. 
